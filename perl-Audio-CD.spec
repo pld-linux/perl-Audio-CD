@@ -6,11 +6,12 @@ Summary(pl):	Interfejs Perla do libcdaudio
 Name:		perl-Audio-CD
 Version:	0.05
 Release:	1
-License:	GPL
+License:	distribution restricted
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Source0:	http://homepages.cwi.nl/~jvhemert/files/Audio-CD-0.05.tar.gz
-# Source0-md5:	038d1f4cc58c8e4e025a53346f301582
+# NoSource0-md5:	038d1f4cc58c8e4e025a53346f301582
+NoSource:	0
 BuildRequires:	libcdaudio-devel
 BuildRequires:	perl-devel
 BuildRequires:	rpm-perlprov >= 4.1-13
