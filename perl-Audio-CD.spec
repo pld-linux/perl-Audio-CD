@@ -9,6 +9,7 @@ Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	5b3051fd01a36c557a54e83ac0bde567
 BuildRequires:	libcdaudio-devel
 BuildRequires:	perl-devel
 BuildRequires:	rpm-perlprov >= 4.1-13
