@@ -2,13 +2,14 @@
 %define	pdir	Audio
 %define	pnam	CD
 Summary:	Perl interface to libcdaudio
-Summary(pl):	Interfejs perla do libcdaudio
+Summary(pl):	Interfejs Perla do libcdaudio
 Name:		perl-Audio-CD
 Version:	0.04
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	5b3051fd01a36c557a54e83ac0bde567
 BuildRequires:	libcdaudio-devel
 BuildRequires:	perl-devel
 BuildRequires:	rpm-perlprov >= 4.0.2-104
@@ -18,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Perl interface to libcdaudio.
 
 %description -l pl
-Interfejs perla do libcdaudio.
+Interfejs Perla do libcdaudio.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
