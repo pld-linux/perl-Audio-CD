@@ -2,7 +2,7 @@
 %define	pdir	Audio
 %define	pnam	CD
 Summary:	Perl interface to libcdaudio
-Summary(pl):	Interfejs perla do libcdaudio
+Summary(pl):	Interfejs Perla do libcdaudio
 Name:		perl-Audio-CD
 Version:	0.05
 Release:	1
