@@ -14,7 +14,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 #Source0:	http://homepages.cwi.nl/~jvhemert/files/Audio-CD-0.05.tar.gz
 # Source0-md5:	5b3051fd01a36c557a54e83ac0bde567
 BuildRequires:	libcdaudio-devel
-BuildRequires:	perl-devel
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
