@@ -5,7 +5,7 @@ Summary:	Perl interface to libcdaudio
 Summary(pl):	Interfejs Perla do libcdaudio
 Name:		perl-Audio-CD
 Version:	0.04
-Release:	5
+Release:	6
 Epoch:		1
 License:	GPL v2+
 Group:		Development/Languages/Perl
