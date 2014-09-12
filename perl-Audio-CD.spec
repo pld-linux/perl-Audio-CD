@@ -48,7 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Audio/CD.pm
 %dir %{perl_vendorarch}/auto/Audio/CD
-%{perl_vendorarch}/auto/Audio/CD/CD.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Audio/CD/CD.so
 
 %{_mandir}/man3/*
