@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Audio
 %define		pnam	CD
+%include	/usr/lib/rpm/macros.perl
 Summary:	Perl interface to libcdaudio
 Summary(pl.UTF-8):	Interfejs Perla do libcdaudio
 Name:		perl-Audio-CD
@@ -13,6 +13,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # newer version distribution is restricted
 #Source0:	http://homepages.cwi.nl/~jvhemert/files/Audio-CD-0.05.tar.gz
 # Source0-md5:	5b3051fd01a36c557a54e83ac0bde567
+URL:		http://search.cpan.org/dist/Audio-CD/
 BuildRequires:	libcdaudio-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
