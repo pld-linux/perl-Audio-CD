@@ -1,6 +1,5 @@
 %define		pdir	Audio
 %define		pnam	CD
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl interface to libcdaudio
 Summary(pl.UTF-8):	Interfejs Perla do libcdaudio
 Name:		perl-Audio-CD
