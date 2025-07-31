@@ -12,6 +12,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # newer version distribution is restricted
 #Source0:	http://homepages.cwi.nl/~jvhemert/files/Audio-CD-0.05.tar.gz
 # Source0-md5:	5b3051fd01a36c557a54e83ac0bde567
+Patch0:		includes.patch
 URL:		http://search.cpan.org/dist/Audio-CD/
 BuildRequires:	libcdaudio-devel
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -26,6 +27,7 @@ Interfejs Perla do libcdaudio.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
